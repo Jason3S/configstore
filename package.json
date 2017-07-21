@@ -15,8 +15,10 @@
   "scripts": {
     "test": "xo && ava"
   },
+  "typings": "index.d.ts",
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "keywords": [
     "config",
