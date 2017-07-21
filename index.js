@@ -22,7 +22,9 @@ class Configstore {
 			path.join('configstore', `${id}.json`);
 
 		this.path = path.join(configDir, pathPrefix);
-		this.all = Object.assign({}, defaults, this.all);
+		if (defaults) {
+			this.all = Object.assign({}, defaults, this.all);
+		}
 	}
 	get all() {
 		try {
