@@ -30,7 +30,6 @@ class Configstore {
 		} catch (err) {
 			// Create dir if it doesn't exist
 			if (err.code === 'ENOENT') {
-				makeDir.sync(path.dirname(this.path), makeDirOptions);
 				return {};
 			}
 
