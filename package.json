@@ -3,11 +3,9 @@
   "version": "3.1.5",
   "description": "Easily load and save config without having to think about where and how",
   "license": "BSD-2-Clause",
-  "repository": "yeoman/configstore",
+  "repository": "jason3s/configstore",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "Jason Dent"
   },
   "engines": {
     "node": ">=4"
