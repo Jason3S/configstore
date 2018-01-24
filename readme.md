@@ -1,3 +1,13 @@
+# Note this is a Fork of [configstore](https://github.com/yeoman/configstore)
+
+This fork only contains minor differences:
+1. Reads are side effect free
+1. Only create the store directory on write if it does not exist
+1. Only writes to the store if there is something to write
+
+This fork is not meant to be a general replacement for [configstore](https://github.com/yeoman/configstore).
+It was solely created to solve issues relating to the changes above.
+
 # configstore [![Build Status](https://travis-ci.org/yeoman/configstore.svg?branch=master)](https://travis-ci.org/yeoman/configstore)
 
 > Easily load and persist config without having to think about where and how
